@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eventos de Click</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="header">
+                <h1 onclick="clicou()" onmouseover="passou()" onmouseleave="tirou()" id="titulo">Login</h1>
+                <p>Estamos muito animados em te ver novamente!</p>
+            </div>
+
+            <form method="POST" class="form">
+                <input onkeydown="apertou()" type="email" name="email" placeholder="E-mail">
+                <input onkeyup="soltou()" type="password" name="pass" placeholder="Senha">
+                <button onclick="clicou()" class="button" type="submit" target="_blanck">Entrar</button>
+            </form>
+            <span class="forgot">Não possui uma conta? <a href="">Registre-se</a></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

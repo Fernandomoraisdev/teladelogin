@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(blue, white, rgb(221, 43, 191),red);
+    padding: 10px;
+}
+
+a{
+    color: rgb(221, 43, 191);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    width: 500px;
+    background-color: #323232;
+    border-radius: 7px;
+    padding: 30px;
+}
+
+.container .left{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .left .header{
+    text-align: center;
+}
+
+.container .left .header h1{
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.container .left .header p{
+    color: rgb(182, 182, 182);
+    margin-bottom: 15px;
+}
+
+.container .left .form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .left .form input{
+    background-color: #121212;
+    border: 1px solid transparent;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 10px;
+    color: #fff;
+    margin-bottom: 5px;
+    transition: .3s ease;
+}
+
+.container .left .form input:focus{
+    border: 1px solid rgb(221, 43, 191);
+}
+
+.container .left .form button{
+    background-color: rgb(221, 43, 191);
+    font-size: 1.1rem;
+    border: 1px solid transparent;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.container .left .form button:hover{
+    background-color: rgb(121, 61, 111);
+    width: 450px;
+    height: 50px;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.container .left .forgot{
+    color: rgb(182, 182, 182);
+}
